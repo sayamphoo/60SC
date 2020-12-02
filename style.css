@@ -1,0 +1,97 @@
+@font-face {
+  font-family: Charmonman-Regular;
+  src: url(font/Charmonman/Charmonman-Regular.ttf);
+}
+
+@font-face {
+  font-family: Charmonman-Bold;
+  src: url(font/Charmonman/Charmonman-Bold.ttf);
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.imgLogo {
+  text-align: center;
+}
+
+.playAudio {
+  animation-duration: 4s;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.info > #a {
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+  font-family: Charmonman-Bold;
+}
+
+.info > #b {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  font-family: Charmonman-Regular;
+}
+
+.info2 {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.info2 > #a {
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+  font-family: Charmonman-Bold;
+}
+
+.info2 > #b {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  font-family: Charmonman-Regular;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  font-family: Charmonman-Bold;
+  font-size: 25px;
+  text-align: center;
+  color: rgb(0, 93, 199);
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  box-shadow: 0px 2px 8px #d8d8d8;
+}
+
+footer {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-family: Charmonman-Regular;
+  font-size: 20px;
+  text-align: center;
+  color: #0004ff;
+  background-color: rgb(228, 228, 228);
+}
