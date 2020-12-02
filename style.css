@@ -14,11 +14,7 @@ body {
   padding: 0;
 }
 .container {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  transform: translate(-50%, -50%);
+  margin-top: 30px;
 }
 
 .imgLogo {
@@ -70,7 +66,6 @@ body {
 
 header {
   width: 100%;
-  position: fixed;
   left: 0;
   top: 0;
   font-family: Charmonman-Bold;
@@ -83,10 +78,10 @@ header {
 }
 
 footer {
+  margin-top: 30px;
   width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
-  position: fixed;
   left: 0;
   bottom: 0;
   font-family: Charmonman-Regular;
