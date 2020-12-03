@@ -5,6 +5,7 @@ if (playAudio) {
   playAudio.addEventListener("click", myPlay, false);
 }
 
+
 let point = 0;
 function myPlay() {
   if (point === 0) {
