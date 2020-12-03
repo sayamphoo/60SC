@@ -4,7 +4,7 @@ var playAudio = document.getElementById("AudioPlay");
 if (playAudio) {
   playAudio.addEventListener("click", myPlay, false);
 }
-
+//---
 
 let point = 0;
 function myPlay() {
