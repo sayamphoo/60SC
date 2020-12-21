@@ -16,10 +16,6 @@
   <body>
     <header>สภานักเรียน</header>
 
-    <audio id="myAudio">
-      <source src="mp3/02.mp3" type="audio/mpeg" />
-    </audio>
-
     <div class="pain01">
       <div class="imgLogo">
         <img src="img/60SC.png" width="100px" />
@@ -29,7 +25,9 @@
         <p id="b">เวลาเริ่ม ปล่อยแถวเข้าห้องเรียน</p>
       </div>
       <div class="playAudio">
-        <img id="AudioPlay" src="img/play-button.png" width="100px" />
+        <audio id="myAudio" controls>
+          <source src="mp3/02.mp3" type="audio/mpeg">
+        </audio>
       </div>
       <div class="info2">
         <p id="a">บทเพลง</p>
