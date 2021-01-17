@@ -1,3 +1,4 @@
+/*
 var firebaseConfig = {
   apiKey: "AIzaSyAwRE14s_9bTId5aEa5g_Vld3BJpc4NRi0",
   authDomain: "august-now-300601.firebaseapp.com",
@@ -61,3 +62,4 @@ function getIPAddress() {
    
     });
 }
+*/
